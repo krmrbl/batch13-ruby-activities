@@ -10,3 +10,6 @@ class Agent
     puts "Agent Number #{@agent_number} is #{@agent_name}, originating from #{@origin}. Role: #{@role}."
   end
 end
+
+agent_007 = Agent.new("Sage", 7, "China", "Sentinel")
+agent_019 = Agent.new("Neon", 19, "Philippines", "Duelist")
